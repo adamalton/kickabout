@@ -9,7 +9,7 @@
 .project-stats:hover,
 .project-stats:hover .project-stats-value{
 	color: black !important;
-	transition: color 1s ease 0.5s;
+	transition: color 0.5s ease 0.3s;
 }
 
 
