@@ -1,0 +1,19 @@
+.stat-item,
+.project-stats,
+.project-stats .project-stats-value{
+	color: #eee !important;
+	background-color: #eee !important;
+}
+
+.stat-item:hover,
+.project-stats:hover,
+.project-stats:hover .project-stats-value{
+	color: black !important;
+	transition: color 1s ease 0.5s;
+}
+
+
+.project-percent-pledged{
+	width: 100% !important;
+	background-color: #aaa !important;
+}

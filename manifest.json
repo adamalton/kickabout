@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Kick Me",
+  "short_name": "Kick Me",
+  "description": "Hide the stats on Kickstarter project pages",
+  "version": "1.2",
+
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.kickstarter.com/*"],
+      "css": ["kickabout.css"]
+    }
+  ],
+
+  "permissions": [
+    "tabs", "https://www.kickstarter.com/*"
+  ]
+}
